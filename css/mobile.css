@@ -74,8 +74,8 @@
 
 @media(max-width: 375px) {
     #showcase .showcase-content {
-        margin-top: -2rem;
-        top: 140px;
+        margin-top: -1rem;
+        top: 125px;
     }
     .l-heading {
         font-size: 2rem;
