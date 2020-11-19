@@ -252,8 +252,8 @@
                     <input type="text" name="name" id="name" placeholder="Unesite ime i prezime">
                 </div>
                 <div class="form-group">
-                    <label for="name">Mesto i grad</label>
-                    <input type="text" name="name" id="name" placeholder="Unesite mesto i grad u kome se nalazi gazdinstvo">
+                    <label for="city">Mesto i grad</label>
+                    <input type="text" name="city" id="city" placeholder="Unesite mesto i grad u kome se nalazi gazdinstvo">
                 </div>
                 <div class="form-group">
                     <label for="email">Email - (ako ga imate, nije obavezno)</label>
@@ -289,6 +289,12 @@
 
     <!-- Local JS File -->
     <script src="js/main.js"></script>
+
+    <!-- Send Email -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+
+    <script src="js/conf.js"></script>
+    <script src="js/sendMail.js"></script>
 
     <!-- Google Maps -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDoZg2Es_GrQHZf_52j2-xZ3cTfBCR0HII&callback=initMap" async defer></script>
