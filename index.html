@@ -246,7 +246,7 @@
         <div class="contact-form bg-primary p-2">
             <h2 class="m-heading">Kontaktirajte Nas</h2>
             <p>Ukoliko ste zainteresovani za saradnju popunite formu a mi ćemo Vam se javiti u najkraćem mogućem roku.</p>
-            <form>
+            <form name="contact" method="POST" data-netlify="true">
                 <div class="form-group">
                     <label for="name">Ime i Prezime</label>
                     <input type="text" name="name" id="name" placeholder="Unesite ime i prezime">
@@ -271,11 +271,7 @@
             </form>
             <br>
             <hr>
-            <form name="contact" method="POST" data-netlify="true">
-                <input type="text" name="name" id="name" placeholder="Unesite ime i prezime">
-                <input type="email" name="email" id="email" placeholder="Unesite Email">
-                <input type="submit" value="Send" class="btn btn-dark">
-            </form>
+
 
         </div>
         <!--<div class="map"></div>-->
