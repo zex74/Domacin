@@ -8,7 +8,7 @@ function sendEmail(message) {
 	Subject : conf.subject,
 	Body : message,
 	}).then(
-		message => console.log(message)
+		message => alert('Uspesno poslata poruka')
     ).catch(
         e => console.log('error', e)
 
@@ -34,5 +34,5 @@ $('form').submit(function (event) {
     <p>poruka: ${mail.message}</p>
     `
     console.log(mail)
-    sendEmail(message)
+    sendEmail(body)
 })
